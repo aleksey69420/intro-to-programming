@@ -25,6 +25,15 @@ h1, h2, h3 {
     color: crimson;
 }
 
+.container {
+    margin: 0 auto;
+    padding: 0 1rem;
+    background-color: #cca;
+    max-width: 1024px;
+    width: 90%;
+
+}
+
 /* Transform the "Experience" list items into styled blocks */
 #experience {
     background-color: azure;
