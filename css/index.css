@@ -34,6 +34,35 @@ h1, h2, h3 {
 
 }
 
+
+/* ----- NAVIGATION ----- */
+
+/* HEADER */
+.main-header {
+    background-color: rgb(91, 91, 205);
+    /* add sticky header */
+    /* position: sticky;
+    top: 0; */
+}
+
+.main-nav {
+    display: none;
+}
+
+
+/* ----- MEDIA QUERIES ----- */
+/* targets screens 769px and wider */
+@media (min-width: 769px) {
+
+    .main-nav {
+        display: block;
+        /* text-decoration: none;
+        padding: 10px 15px; */
+    }
+}
+
+
+
 /* Transform the "Experience" list items into styled blocks */
 #experience {
     background-color: azure;
